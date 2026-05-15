@@ -1,0 +1,75 @@
+name: Neko Counter
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Get contributions
+        id: contribs
+        run: |
+          response=$(curl -s https://github-contributions-api.jogruber.de/v4/a1ternativez)
+
+          year=$(echo "$response" | jq -r '.total | to_entries | max_by(.key) | .key')
+          count=$(echo "$response" | jq -r --arg year "$year" '.total[$year]')
+
+          echo "year=$year"
+          echo "count=$count"
+
+          echo "count=$count" >> $GITHUB_OUTPUT
+
+      - name: Generate neko counter
+        run: |
+          count="${{ steps.contribs.outputs.count }}"
+
+          html="<div align=\"center\">\n\n"
+
+          for (( i=0; i<${#count}; i++ )); do
+            digit="${count:$i:1}"
+            html+="![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/${digit}.gif)"
+          done
+
+          html+="\n\n</div>"
+
+          echo -e "$html" > COUNTER.md
+
+      - name: Update README
+        run: |
+          awk '
+          BEGIN {p=1}
+          /<!-- NEKO_COUNTER_START -->/ {
+            print
+            system("cat COUNTER.md")
+            p=0
+            next
+          }
+          /<!-- NEKO_COUNTER_END -->/ {
+            p=1
+          }
+          p
+          ' README.md > README_NEW.md
+
+          mv README_NEW.md README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "a1ternativez"
+          git config user.email "y28685592@gmail.com"
+
+          git add README.md
+          git commit -m "update counter" || exit 0
+          git push
