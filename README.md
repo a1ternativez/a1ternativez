@@ -27,6 +27,11 @@ working on pizzakak
 
 ---
 
+## snake
+![Snake animation](https://raw.githubusercontent.com/a1ternativez/a1ternativez/output/github-contribution-grid-snake.svg)
+
+---
+
 ## neko counter
 
 <!-- NEKO_COUNTER_START -->
