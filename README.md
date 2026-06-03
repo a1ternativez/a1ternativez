@@ -3,39 +3,32 @@
 scripter  
 working on pizzakak
 
-## tools
+---
 
+## tools
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![Rojo](https://img.shields.io/badge/Rojo-red?style=flat&logo=roblox&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-## languages
+---
 
+## languages
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat&logo=lua&logoColor=white)
 ![Luau](https://img.shields.io/badge/Luau-000000?style=flat&logo=roblox&logoColor=white)
 
 ---
 
-## streak
+## stats
+![Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true)
 
-![Streak](https://streak-stats.demolab.com?user=a1ternativez&theme=github-dark&hide_border=true)
+![Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark&hide_border=true)
 
----
-
-## activity
-
-![Activity](https://github-readme-activity-graph.vercel.app/graph?username=a1ternativez&theme=github-compact)
+![Activity](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-compact)
 
 ---
 
-![Snake animation](https://raw.githubusercontent.com/a1ternativez/a1ternativez/output/github-contribution-grid-snake.svg)
-
----
+## neko counter
 
 <!-- NEKO_COUNTER_START -->
-<div align="center">
 
-![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/8.gif)![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/3.gif)
-
-</div>
 <!-- NEKO_COUNTER_END -->
