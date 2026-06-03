@@ -19,7 +19,7 @@ working on pizzakak
 ---
 
 ## stats
-![Stats](https://github-readme-stats.vercel.app/api?username=a1ternativez&show_icons=true&theme=github_dark&hide_border=true)
+![Stats](https://github-stats-extended.vercel.app/api?username=a1ternativez&show_icons=true&theme=github_dark&hide_border=true)
 
 ![Streak](https://streak-stats.demolab.com?user=a1ternativez&theme=github-dark&hide_border=true)
 
