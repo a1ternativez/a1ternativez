@@ -35,5 +35,9 @@ working on pizzakak
 ## neko counter
 
 <!-- NEKO_COUNTER_START -->
+<div align="center">
 
+![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/9.gif)![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/1.gif)
+
+</div>
 <!-- NEKO_COUNTER_END -->
