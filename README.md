@@ -19,11 +19,11 @@ working on pizzakak
 ---
 
 ## stats
-![Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=a1ternativez&show_icons=true&theme=github_dark&hide_border=true)
 
-![Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark&hide_border=true)
+![Streak](https://streak-stats.demolab.com?user=a1ternativez&theme=github-dark&hide_border=true)
 
-![Activity](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=github-compact)
+![Activity](https://github-readme-activity-graph.vercel.app/graph?username=a1ternativez&theme=github-compact)
 
 ---
 
