@@ -32,8 +32,6 @@ working on pizzakak
 
 ---
 
-## neko counter
-
 <!-- NEKO_COUNTER_START -->
 <div align="center">
 
