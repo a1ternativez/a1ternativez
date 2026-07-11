@@ -26,7 +26,11 @@ working on pizzakak
 ![Activity](https://github-readme-activity-graph.vercel.app/graph?username=a1ternativez&theme=github-compact)
 
 <!-- NEKO_COUNTER_START -->
+<div align="center">
 
+![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/1.gif)![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/2.gif)![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/7.gif)
+
+</div>
 <!-- NEKO_COUNTER_END -->
 
 ![Snake animation](https://raw.githubusercontent.com/a1ternativez/a1ternativez/output/github-contribution-grid-snake.svg)
