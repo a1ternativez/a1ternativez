@@ -28,7 +28,7 @@ working on pizzakak
 <!-- NEKO_COUNTER_START -->
 <div align="center">
 
-![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/1.gif)![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/2.gif)![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/7.gif)
+![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/1.gif)![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/2.gif)![Neko Counter](https://raw.githubusercontent.com/a1ternativez/a1ternativez/main/assets/8.gif)
 
 </div>
 <!-- NEKO_COUNTER_END -->
